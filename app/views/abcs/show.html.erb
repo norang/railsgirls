@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @abc.name %>
+</p>
+
+<p>
+  <strong>Time:</strong>
+  <%= @abc.time %>
+</p>
+
+<p>
+  <strong>Start:</strong>
+  <%= @abc.start %>
+</p>
+
+<%= link_to 'Edit', edit_abc_path(@abc) %> |
+<%= link_to 'Back', abcs_path %>
